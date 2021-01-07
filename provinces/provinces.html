@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./provinces-style.css'/>
+    <link rel='stylesheet' href='../reusables/loading.css'/>
+    <link rel='stylesheet' href='../reusables/header.css'/>
+    <title>Covid Tracker</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id='title'>Covid-19</h1>
+            <nav>
+                <a href='../home/home.html'>Beranda</a>
+                <a href='./provinces.html' id='current'>Data Provinsi</a>
+            </nav>
+        </div>
+        <span id='contact'>LAYANAN DARURAT 0811 1211 2112</span>
+    </header>
+    <main>
+        <input id='searchBar' disabled/>
+        <!-- biar user gk filter pas datanya belum ke fetch -->
+        <div id='provinceList'>
+
+        </div>
+    </main>
+    <script src='./provinces-script.js'></script>
+</body>
+</html>

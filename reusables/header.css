@@ -1,0 +1,48 @@
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header div nav a{
+    text-decoration: none;
+    color: #7e7e7e;
+    margin: 0px 10px;
+}
+header #contact{
+    margin: 10px 0px;
+    font-weight: bold;
+} 
+header div #title{
+    font-weight: bold;
+    margin: 5px 0px;
+}
+header div nav #current{
+    font-weight: bold;
+}
+
+@media (min-width:675px)  {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div{
+        flex-direction: row;
+    }
+    header div #title{
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    header div nav a{
+        margin: 0px 15px;
+    }
+    header #contact{
+        margin-right: 30px;
+    }
+}
