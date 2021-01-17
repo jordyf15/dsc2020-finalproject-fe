@@ -8,7 +8,11 @@ It will display the overview of covid cases in Indonesia.
 It will display the covid cases for each province in Indonesia and also display a search bar where users can search for specific provinces in the given list. This page can be accessed from the Home Page.
 
 ## Live Demo on CodePen
-Live Demo will be available when this project has passed its reviews.
+The 2 pages are on different pens in codepen, since a pen only allows for one page in codepen.  
+1. Covid Tracker Home Page:  
+https://codepen.io/jordyf15/full/qBagBaG
+2. Covid Tracker Province Page:  
+https://codepen.io/jordyf15/full/LYRqYxw
 
 ## Technologies Used
 1. HTML
